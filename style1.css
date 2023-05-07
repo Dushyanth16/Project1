@@ -1,0 +1,168 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  body {
+    background-image: url("background-image.jpg");
+    background-size: cover;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation bar */
+  
+  nav {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    border-bottom-color: #f9b942;
+  }
+  
+  /* Hero section */
+  
+  .hero {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .btn {
+    background-color: #f9b942;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .hero .btn:hover {
+    background-color: #e2a632;
+  }
+  
+  /* Features section */
+  
+  .features {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+  }
+  
+  .features h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  .feature img {
+    max-width: 200px;
+    margin-right: 40px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .feature p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Featured NFTs section */
+  
+  .featured-nfts {
+    padding: 100px 0;
+  }
+  
+  .featured-nfts h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .nfts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+  
+  .nft {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .nft img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .nft h3 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom
+  }
